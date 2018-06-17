@@ -9,7 +9,7 @@ module.exports = {
     },
     save: function (data, cb) {
         var newNote = {
-            _headlineId:: data._id,
+            _headlineId: data._id,
             data: makeDate(),
             noteText: data.noteText
         };
